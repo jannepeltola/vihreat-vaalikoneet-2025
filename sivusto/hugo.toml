@@ -1,4 +1,3 @@
-baseURL = 'https://jannepeltola.github.io/vihreat-vaalikoneet-2025/'
 languageCode = 'fi-FI'
 title = 'Vihreät vaalikonevastaukset'
 theme = 'whiteplain'
