@@ -2,6 +2,8 @@ languageCode = 'fi-FI'
 title = 'Vihreät vaalikonevastaukset'
 theme = 'whiteplain'
 sectionPagesMenu = 'main'
+[params]
+    showShareIcons = false  
 
 [menus]
   [[menus.main]]
