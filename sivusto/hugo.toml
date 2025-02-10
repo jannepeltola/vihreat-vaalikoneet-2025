@@ -1,20 +1,16 @@
 baseURL = 'https://example.org/'
 languageCode = 'fi-FI'
 title = 'Vihreät vaalikonevastaukset'
-theme = 'ananke'
+theme = 'whiteplain'
 sectionPagesMenu = 'main'
 
 [menus]
   [[menus.main]]
-    name = 'Etusivu'
-    pageRef = '/'
-    weight = 10
-  [[menus.main]]
-    name = 'HS ja Aamulehti'
+    name = 'HS, Aamulehti'
     pageRef = '/HS__AL'
     weight = 20
   [[menus.main]]
-    name = 'HS, Aamulehti ja SK'
+    name = 'HS, AL ja SK'
     pageRef = '/HS__AL__SK'
     weight = 30
   [[menus.main]]
@@ -25,3 +21,7 @@ sectionPagesMenu = 'main'
     name = 'Ilta-Sanomat'
     pageRef = '/IS'
     weight = 50
+  [[menus.main]]
+    name = 'Teemat'
+    pageRef = '/tags'
+    weight = 60
