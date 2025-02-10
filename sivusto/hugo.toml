@@ -1,0 +1,27 @@
+baseURL = 'https://example.org/'
+languageCode = 'fi-FI'
+title = 'Vihreät vaalikonevastaukset'
+theme = 'ananke'
+sectionPagesMenu = 'main'
+
+[menus]
+  [[menus.main]]
+    name = 'Etusivu'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'HS ja Aamulehti'
+    pageRef = '/HS__AL'
+    weight = 20
+  [[menus.main]]
+    name = 'HS, Aamulehti ja SK'
+    pageRef = '/HS__AL__SK'
+    weight = 30
+  [[menus.main]]
+    name = 'Iltalehti'
+    pageRef = '/IL'
+    weight = 40
+  [[menus.main]]
+    name = 'Ilta-Sanomat'
+    pageRef = '/IS'
+    weight = 50
