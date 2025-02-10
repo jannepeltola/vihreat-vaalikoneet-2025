@@ -48,7 +48,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-        run: echo "SELECTED_COLOR=green" >> "$GITHUB_OUTPUT"
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
@@ -61,7 +60,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://github.com/jannepeltola/vihreat-vaalikoneet-2025/"
+            --baseURL "https://jannepeltola.github.io/vihreat-vaalikoneet-2025/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
