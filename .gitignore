@@ -12,7 +12,7 @@ wheels/
 # Credentials
 creds.yml
 
-vastaukset*
+vastaukset_*
 
 sivusto/public
 sivusto/resources/_gen
